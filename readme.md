@@ -9,6 +9,8 @@
 - Jasmin
 - Chrome Launcher
 
+Both Angular and ExpressJS codes are in Typescript
+
 ## Install
 ```bash
 git clone https://github.com/erroldee/angular2-express.git
