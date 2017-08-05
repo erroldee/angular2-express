@@ -1,0 +1,8 @@
+<div>
+    <p sample-vendor></p><br/>
+    <button id="callServiceButton" type="button" (click)="callService()">{{ callServiceButtonText }}</button><br/>
+    <button type="button" (click)="toggleCheck()">Check before Leaving - {{ mustCheck ? "true" : "false" }}</button><br/>
+    <button type="button" [sample-console]="'must console here'">Sample Console Directive</button><br/>
+    <button type="button" [routerLink]="[{outlets: { modal : 'dashboardmodal'}}]">Show Dashboard Modal</button><br/>
+    <button type="button" (click)="logout()">Log Out</button>
+</div>
